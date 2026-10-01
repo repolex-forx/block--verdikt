@@ -1,0 +1,26 @@
+[2026-10-01T09:57:46Z] === ENRICH ITERATION 1 START | repo=block/verdikt sha=ab1f0fab ===
+[2026-10-01T09:57:46Z] [iter=1] PHASE START: enrich repo=block/verdikt sha=ab1f0fab runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ab1f0fab-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ab1f0fab733c4fce513d2e5be16d41873433628c.nq.gz
+[2026-10-01T09:57:46Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-01T09:57:51Z] [iter=1] AST store loaded triples=398894 load_secs=4 mem_mb=671 MB
+[2026-10-01T09:57:51Z] [iter=1] Step 2: Finding LSP targets mem_mb=671 MB
+[2026-10-01T09:57:52Z] [iter=1] LSP targets found call_sites=3855 imports=211 extends=0 implements=0 secs=1
+[2026-10-01T09:57:53Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=671 MB
+[2026-10-01T09:57:55Z] [iter=1] Position index built positions=22473 nodes_with_types=28192 secs=2 mem_mb=671 MB
+[2026-10-01T09:57:55Z] [iter=1] Step 3: Starting LSP resolution mem_mb=671 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T09:57:55Z] [iter=1] Resolving target type target_type=call_site count=3855
+[2026-10-01T09:58:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=1 resolved=19 errors=74 current=verdikt-engine/src/commonTest/kotlin/verdikt/engine/rete/BetaNodeTest.kt
+[2026-10-01T09:59:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=6 resolved=103 errors=364 current=verdikt-engine/src/commonTest/kotlin/verdikt/engine/EngineTest.kt
+[2026-10-01T09:59:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.9 files_done=12 resolved=142 errors=561 current=verdikt-test/src/commonMain/kotlin/verdikt/test/RuleSetAssertions.kt
+[2026-10-01T10:00:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=18 resolved=186 errors=846 current=verdikt-core/src/commonTest/kotlin/verdikt/VerdictTest.kt
+[2026-10-01T10:01:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=21 resolved=263 errors=1072 current=verdikt-engine/src/commonMain/kotlin/verdikt/engine/Phase.kt
+[2026-10-01T10:01:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=24 resolved=284 errors=1277 current=demo/src/iosMain/kotlin/demo/MainViewController.kt
+[2026-10-01T10:02:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=33 resolved=341 errors=1478 current=verdikt-engine/src/commonMain/kotlin/verdikt/engine/PhaseBuilder.kt
+[2026-10-01T10:02:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=40 resolved=437 errors=1686 current=verdikt-test/src/commonMain/kotlin/verdikt/test/VerdictAssertions.kt
+[2026-10-01T10:03:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=53 resolved=479 errors=1874 current=demo/build.gradle.kts
+[2026-10-01T10:03:35Z] [iter=1] Target type resolved target_type=call_site resolved=494 errors=1980 secs=340 mem_mb=671 MB
+[2026-10-01T10:03:35Z] [iter=1] Resolving target type target_type=import_statement count=211
+[2026-10-01T10:03:43Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=6.0 files_done=6 resolved=0 errors=0 current=verdikt-core/src/commonTest/kotlin/verdikt/RuleDefinitionTest.kt
+[2026-10-01T10:03:53Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=18 mem_mb=671 MB
+[2026-10-01T10:04:11Z] [iter=1] Step 5: Writing final enrichment file triples=23088
+[2026-10-01T10:04:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ab1f0fab733c4fce513d2e5be16d41873433628c.nq.gz size_kb=429
+[2026-10-01T10:04:11Z] [iter=1] PHASE END: enrich elapsed_s=385 elapsed_min=6.4 total_triples=23088
