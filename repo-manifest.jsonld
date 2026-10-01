@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/verdikt/commit/ab1f0fab733c4fce513d2e5be16d41873433628c",
       "git:hexsha": "ab1f0fab733c4fce513d2e5be16d41873433628c",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
