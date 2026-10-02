@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/verdikt/commit/ab1f0fab733c4fce513d2e5be16d41873433628c",
       "git:hexsha": "ab1f0fab733c4fce513d2e5be16d41873433628c",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-02T10:11:21.943477+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/verdikt/commit/19c2ce6e437a748b509c151d68f97215248c0019",
