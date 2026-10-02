@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "verdikt",
+  "versions": [
+    {
+      "commit": "ab1f0fab733c4fce513d2e5be16d41873433628c",
+      "tag": "main",
+      "parsed_at": "2026-10-02T10:11:21.943902+00:00"
+    }
+  ]
+}
